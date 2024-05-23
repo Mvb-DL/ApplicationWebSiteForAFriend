@@ -1,0 +1,22 @@
+.big-sc{
+    .big-content{
+        display: grid;
+        column-gap: 24px;
+        grid-template-columns: repeat(4, 1fr);
+        margin-left: 24px;
+        padding: 16px 0;
+    }
+
+    .pieChartDiv{
+
+        @media(max-width: 992px){
+            padding-bottom: 350px;
+        }
+        @media(max-width: 768px){
+            padding-top: 250px;
+        }
+        @media(max-width: 576px){
+            padding-top: 200px;
+        }
+    }
+}
