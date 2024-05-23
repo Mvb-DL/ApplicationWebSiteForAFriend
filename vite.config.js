@@ -8,5 +8,6 @@ export default defineConfig({
     ViteGltfPlugin({
       include: [/\.glb$/],  // Fügen Sie den richtigen Dateityp hinzu, falls erforderlich
     })],
+    base: "/ApplicationWebSiteForAFriend/"
   
 });
