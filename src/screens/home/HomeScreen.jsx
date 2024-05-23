@@ -22,7 +22,7 @@ const HomeScreen = () => {
         
         <Header />
 
-        <GLBViewer></GLBViewer>
+        {/*<GLBViewer></GLBViewer> */}
 
 
         <Experience />
